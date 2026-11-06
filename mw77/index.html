@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mw777.me-mw777.me官网入口_mw777.me网址导航与访问指引</title>
+<meta name="description" content="mw777.me 主题首页，汇集 mw777.me 官方入口说明、网址访问指引、常见问题与访问路径提示，帮助访客快速了解 mw777.me 的定位与使用方式。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2a3d'/%3E%3Cpath d='M14 42V22h6l6 11 6-11h6v20h-6V31l-6 10-6-10v11z' fill='%233fc1a9'/%3E%3Ccircle cx='46' cy='26' r='4' fill='%23f2b544'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#0f2a3d;
+  --ink-soft:#22455c;
+  --paper:#f6f8f7;
+  --card:#ffffff;
+  --teal:#1f8f7a;
+  --teal-soft:#dff1ec;
+  --amber:#d99b28;
+  --line:#dbe4e2;
+  --muted:#5c7270;
+  --radius:14px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--teal);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+/* header */
+.site-head{
+  position:sticky;top:0;z-index:20;
+  background:rgba(246,248,247,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.head-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:18px;padding:12px 0;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.12rem;letter-spacing:.2px;}
+.brand svg{flex:none;}
+.brand span{color:var(--ink);}
+nav.main-nav{display:flex;gap:6px;flex-wrap:wrap;}
+nav.main-nav a{
+  display:inline-block;padding:6px 12px;border-radius:999px;
+  color:var(--ink-soft);font-size:.94rem;font-weight:500;
+}
+nav.main-nav a:hover{background:var(--teal-soft);color:var(--teal);text-decoration:none;}
+
+/* hero */
+.hero{
+  position:relative;
+  padding:54px 0 46px;
+  background:
+    radial-gradient(900px 320px at 82% -10%, #d8ece7 0%, transparent 70%),
+    radial-gradient(600px 260px at 4% 110%, #f7e9c9 0%, transparent 70%);
+  overflow:hidden;
+}
+.hero-grid{
+  display:grid;grid-template-columns:1.35fr .9fr;gap:40px;align-items:center;
+}
+.eyebrow{
+  display:inline-block;font-size:.8rem;letter-spacing:.16em;
+  color:var(--teal);background:var(--teal-soft);
+  padding:4px 12px;border-radius:999px;font-weight:600;
+}
+h1{
+  font-size:clamp(1.9rem,4.2vw,2.9rem);
+  line-height:1.22;
+  margin:16px 0 14px;
+  letter-spacing:-.5px;
+  word-break:break-word;
+}
+.hero p.lead{font-size:1.06rem;color:var(--ink-soft);margin:0 0 24px;max-width:34em;}
+.btn-row{display:flex;gap:12px;flex-wrap:wrap;}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:999px;font-weight:600;font-size:.96rem;
+  border:1px solid transparent;cursor:pointer;
+}
+.btn-primary{background:var(--teal);color:#fff;}
+.btn-primary:hover{background:#187a68;text-decoration:none;}
+.btn-ghost{background:#fff;color:var(--ink);border-color:var(--line);}
+.btn-ghost:hover{border-color:var(--teal);color:var(--teal);text-decoration:none;}
+.hero-art{
+  background:#fff;border:1px solid var(--line);border-radius:20px;
+  padding:18px;box-shadow:0 16px 40px -28px rgba(15,42,61,.55);
+}
+.hero-art figcaption{font-size:.82rem;color:var(--muted);text-align:center;margin-top:10px;}
+
+/* sections */
+section{padding:46px 0;}
+.sec-head{margin-bottom:26px;}
+.sec-head h2{
+  font-size:clamp(1.28rem,2.6vw,1.6rem);
+  margin:0 0 8px;letter-spacing:-.2px;
+}
+.sec-head p{margin:0;color:var(--muted);max-width:46em;}
+
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px;display:flex;flex-direction:column;gap:10px;
+}
+.card h3{margin:0;font-size:1.05rem;}
+.card p{margin:0;color:var(--ink-soft);font-size:.94rem;}
+.card .ico{
+  width:38px;height:38px;border-radius:10px;background:var(--teal-soft);
+  display:flex;align-items:center;justify-content:center;color:var(--teal);
+}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#fff;}
+.step{padding:24px 22px;border-right:1px solid var(--line);}
+.step:last-child{border-right:none;}
+.step .num{
+  display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;
+  border-radius:50%;background:var(--ink);color:#fff;font-size:.88rem;font-weight:700;margin-bottom:10px;
+}
+.step h3{margin:0 0 6px;font-size:1rem;}
+.step p{margin:0;font-size:.92rem;color:var(--ink-soft);}
+
+/* faq */
+.faq{border-top:1px solid var(--line);}
+details{
+  border-bottom:1px solid var(--line);
+  padding:16px 0;
+}
+details summary{
+  cursor:pointer;font-weight:600;font-size:1rem;color:var(--ink);
+  list-style:none;display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+details summary::-webkit-details-marker{display:none;}
+details summary::after{
+  content:"+";color:var(--teal);font-size:1.2rem;font-weight:700;line-height:1;
+}
+details[open] summary::after{content:"–";}
+details p{margin:10px 0 0;color:var(--ink-soft);font-size:.94rem;max-width:52em;}
+
+/* search */
+.search-box{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px;display:flex;gap:12px;flex-wrap:wrap;align-items:center;
+}
+.search-box label{font-weight:600;font-size:.94rem;}
+.search-box input{
+  flex:1 1 240px;min-width:180px;padding:10px 14px;border:1px solid var(--line);
+  border-radius:999px;font-size:.95rem;font-family:inherit;color:var(--ink);
+  background:var(--paper);
+}
+.search-box input:focus{outline:2px solid var(--teal-soft);border-color:var(--teal);}
+.search-result{margin-top:14px;font-size:.92rem;color:var(--muted);}
+.search-result strong{color:var(--teal);}
+
+/* download strip */
+.dl-strip{
+  display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;
+  background:linear-gradient(120deg,#0f2a3d,#1b4a5e);
+  color:#eaf3f1;border-radius:var(--radius);padding:26px 24px;
+}
+.dl-strip h2{margin:0 0 6px;font-size:1.18rem;color:#fff;}
+.dl-strip p{margin:0;font-size:.92rem;color:#bcd4d0;max-width:38em;}
+.dl-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--amber);color:#1c1200;font-weight:700;
+  padding:11px 26px;border-radius:999px;font-size:.96rem;
+  pointer-events:none;
+}
+.dl-note{font-size:.78rem;color:#9dbbb7;margin-top:8px;}
+
+/* footer */
+footer{
+  border-top:1px solid var(--line);background:#fff;padding:34px 0 28px;margin-top:10px;
+}
+.foot-top{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+.foot-brand{display:flex;align-items:center;gap:9px;font-weight:700;}
+.foot-links{display:flex;gap:18px;flex-wrap:wrap;font-size:.9rem;}
+.foot-links a{color:var(--ink-soft);}
+.foot-links a:hover{color:var(--teal);}
+.copy{margin-top:20px;font-size:.82rem;color:var(--muted);line-height:1.7;}
+
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr;}
+  .hero-art{order:-1;max-width:340px;}
+  .cards{grid-template-columns:1fr;}
+  .steps{grid-template-columns:1fr;}
+  .step{border-right:none;border-bottom:1px solid var(--line);}
+  .step:last-child{border-bottom:none;}
+  section{padding:36px 0;}
+}
+@media (max-width:520px){
+  body{font-size:15.5px;}
+  .head-inner{padding:10px 0;}
+  nav.main-nav a{padding:5px 10px;font-size:.88rem;}
+  .hero{padding:34px 0 30px;}
+  .btn{padding:10px 18px;font-size:.92rem;}
+}
+</style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="brand">
+      <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#0f2a3d"></rect>
+        <path d="M14 42V22h6l6 11 6-11h6v20h-6V31l-6 10-6-10v11z" fill="#3fc1a9"></path>
+        <circle cx="46" cy="26" r="4" fill="#f2b544"></circle>
+      </svg>
+      <span>mw777.me</span>
+    </div>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#overview">站点概览</a>
+      <a href="#entry">入口指引</a>
+      <a href="#search">网址检索</a>
+      <a href="#faq">常见问题</a>
+      <a href="#download">下载</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">网址访问 · 入口说明</span>
+        <h1>mw777.me</h1>
+        <p class="lead">mw777.me 是一个以域名本身作为主题标识的网址入口页。本页说明 mw777.me 的定位、访问路径与使用注意事项，方便第一次接触该域名的访客快速判断是否为目标站点，并找到正确的访问方式。</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#entry">查看入口指引</a>
+          <a class="btn btn-ghost" href="#faq">浏览常见问题</a>
+        </div>
+      </div>
+      <figure class="hero-art" style="margin:0;">
+        <svg viewBox="0 0 320 220" width="100%" height="auto" role="img" aria-label="mw777.me 网址访问路径示意插画">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#dff1ec"></stop>
+              <stop offset="1" stop-color="#f7ecd2"></stop>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="320" height="220" rx="14" fill="url(#g1)"></rect>
+          <rect x="34" y="34" width="252" height="40" rx="20" fill="#ffffff" stroke="#cfe0dc"></rect>
+          <circle cx="58" cy="54" r="8" fill="#3fc1a9"></circle>
+          <rect x="76" y="48" width="150" height="9" rx="4.5" fill="#0f2a3d" opacity="0.82"></rect>
+          <rect x="34" y="92" width="120" height="94" rx="12" fill="#ffffff" stroke="#cfe0dc"></rect>
+          <rect x="48" y="108" width="60" height="8" rx="4" fill="#1f8f7a"></rect>
+          <rect x="48" y="126" width="86" height="6" rx="3" fill="#a8c3be"></rect>
+          <rect x="48" y="142" width="70" height="6" rx="3" fill="#a8c3be"></rect>
+          <rect x="48" y="160" width="42" height="12" rx="6" fill="#f2b544"></rect>
+          <rect x="168" y="92" width="118" height="44" rx="10" fill="#ffffff" stroke="#cfe0dc"></rect>
+          <rect x="182" y="106" width="70" height="7" rx="3.5" fill="#0f2a3d" opacity="0.6"></rect>
+          <rect x="182" y="120" width="48" height="6" rx="3" fill="#a8c3be"></rect>
+          <rect x="168" y="146" width="118" height="40" rx="10" fill="#ffffff" stroke="#cfe0dc"></rect>
+          <rect x="182" y="160" width="80" height="7" rx="3.5" fill="#0f2a3d" opacity="0.6"></rect>
+        </svg>
+        <figcaption>mw777.me 访问路径示意</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="overview">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>站点概览：mw777.me 是什么</h2>
+        <p>mw777.me 本身是一个域名标识，本页以主题首页的形式围绕它组织访问说明。下面从三个角度说明访客最需要了解的内容。</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="ico" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"></path></svg>
+          </div>
+          <h3>域名即主题</h3>
+          <p>mw777.me 的核心信息集中在域名本身。访客通常通过搜索或他人分享得知该域名，需要先确认它指向的站点身份，再决定是否继续访问。</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"></path><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"></path></svg>
+          </div>
+          <h3>入口与路径</h3>
+          <p>访问 mw777.me 时，建议直接在浏览器地址栏输入完整域名，避免经过来源不明的跳转链接。地址栏显示与目标域名一致，是判断访问正确与否的第一步。</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"></path><path d="M9 12l2 2 4-4"></path></svg>
+          </div>
+          <h3>访问安全提示</h3>
+          <p>对于任何以数字串加域名后缀构成的网址，都应留意浏览器安全提示与证书状态。若页面要求输入敏感信息，请先核实来源，再谨慎判断。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="entry">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>mw777.me 入口指引</h2>
+        <p>按下面的顺序操作，可以较稳妥地完成一次 mw777.me 访问尝试，并在出现异常时快速定位问题所在。</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="num">1</span>
+          <h3>核对完整域名</h3>
+          <p>确认拿到的是 mw777.me 的完整拼写，包括中间的点和结尾的 me。数字与字母混排时容易误读，逐字符核对可减少输错。</p>
+        </div>
+        <div class="step">
+          <span class="num">2</span>
+          <h3>直接输入地址</h3>
+          <p>在浏览器地址栏手动输入 mw777.me 并回车，而不是点击聊天记录里的短链。这样能看清最终跳转到何处，也便于保存书签。</p>
+        </div>
+        <div class="step">
+          <span class="num">3</span>
+          <h3>观察加载结果</h3>
+          <p>页面正常加载后，先浏览首页结构再决定下一步操作。若长时间无响应或提示证书错误，应停止输入任何信息并更换网络环境重试。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="search">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>网址检索小工具</h2>
+        <p>输入一个域名片段，本页会在下方列出是否与 mw777.me 相关，帮助你快速比对手上的网址信息。</p>
+      </div>
+      <form class="search-box" id="siteSearch" onsubmit="return false;">
+        <label for="kw">输入网址片段</label>
+        <input id="kw" type="text" placeholder="例如 mw777 或 mw777.me" autocomplete="off">
+        <button class="btn btn-primary" type="button" id="searchBtn">比对</button>
+      </form>
+      <p class="search-result" id="searchResult" aria-live="polite">尚未输入内容。</p>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>常见问题</h2>
+        <p>整理访客在查找 mw777.me 时比较常遇到的几类疑问，答案以通用访问常识为基础。</p>
+      </div>
+      <details open>
+        <summary>mw777.me 打不开怎么办？</summary>
+        <p>先确认网络连接正常，再检查地址是否完整输入。可以尝试更换浏览器或切换网络后重新访问 mw777.me。若仍无响应，可能是域名解析或站点状态问题，建议稍后再试，不要通过来路不明的镜像地址访问。</p>
+      </details>
+      <details>
+        <summary>为什么要在地址栏手动输入 mw777.me？</summary>
+        <p>手动输入能让你清楚看到浏览器实际访问的域名，避免被伪装链接带到其他站点。对于 mw777.me 这类容易被仿冒拼写的域名，手动输入并核对地址栏是最直接的自查方式。</p>
+      </details>
+      <details>
+        <summary>mw777.me 与本页是什么关系？</summary>
+        <p>本页是以 mw777.me 为主题的说明性首页，用于集中呈现该域名的访问指引与常见问题，不对站点内部功能作超出事实的描述。具体服务内容请以实际访问 mw777.me 时的页面显示为准。</p>
+      </details>
+      <details>
+        <summary>访问时需要填写个人信息吗？</summary>
+        <p>仅浏览网页通常不需要提供个人信息。若某个页面主动要求填写账号、密码或支付信息，请先确认该页面的真实归属，并留意浏览器地址栏是否为 mw777.me。</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="download">
+    <div class="wrap">
+      <div class="dl-strip">
+        <div>
+          <h2>下载 mw777.me 访问说明页</h2>
+          <p>将本页的入口指引与常见问题保存到本地，离线时也能查看 mw777.me 的访问步骤与排查要点。</p>
+          <p class="dl-note">下载文件将在后续上线时提供，当前按钮暂不可用。</p>
+        </div>
+        <a class="dl-btn" href="#" data-download-placeholder="true" aria-disabled="true" tabindex="-1">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"></path><path d="M7 11l5 5 5-5"></path><path d="M5 20h14"></path></svg>
+          下载
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#0f2a3d"></rect>
+          <path d="M14 42V22h6l6 11 6-11h6v20h-6V31l-6 10-6-10v11z" fill="#3fc1a9"></path>
+          <circle cx="46" cy="26" r="4" fill="#f2b544"></circle>
+        </svg>
+        <span>mw777.me</span>
+      </div>
+      <div class="foot-links">
+        <a href="#overview">站点概览</a>
+        <a href="#entry">入口指引</a>
+        <a href="#search">网址检索</a>
+        <a href="#faq">常见问题</a>
+        <a href="#download">下载</a>
+      </div>
+    </div>
+    <p class="copy">本页为 mw777.me 主题说明首页，内容围绕域名访问指引与常见问题展开，所涉服务信息请以实际访问 mw777.me 的结果为准。页面不收集访客信息。</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var input = document.getElementById('kw');
+  var btn = document.getElementById('searchBtn');
+  var out = document.getElementById('searchResult');
+  function check(){
+    var v = (input.value || '').trim().toLowerCase();
+    if(!v){
+      out.textContent = '尚未输入内容。';
+      return;
+    }
+    if(v.indexOf('mw777') !== -1){
+      out.innerHTML = '片段 “' + v.replace(/[<>&]/g,'') + '” 与 <strong>mw777.me</strong> 相关，请核对完整拼写后访问。';
+    }else{
+      out.innerHTML = '片段 “' + v.replace(/[<>&]/g,'') + '” 未包含 mw777，可能并非 <strong>mw777.me</strong>，请确认是否输错。';
+    }
+  }
+  btn.addEventListener('click', check);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); check(); }
+  });
+})();
+</script>
+</body>
+  </html>
